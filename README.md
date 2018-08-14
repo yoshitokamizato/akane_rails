@@ -15,6 +15,12 @@ install
 brew install postgresql
 ```
 
+initialization postgres
+
+```
+initdb --encoding=UTF-8 --locale=ja_JP.UTF-8 /usr/local/var/postgres
+```
+
 start postgresql
 
 ```
