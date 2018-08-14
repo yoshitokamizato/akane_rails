@@ -5,6 +5,22 @@ application up and running.
 
 Things you may want to cover:
 
+## environment
+
+- database : postgresql
+
+install
+
+```
+brew install postgresql
+```
+
+start postgresql
+
+```
+postgres -D /usr/local/var/postgres
+```
+
 * Ruby version
 
 * System dependencies
